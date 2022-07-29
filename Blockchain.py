@@ -105,11 +105,3 @@ class Blockchain:
 
 bc = Blockchain()
 bc.chain
-bc.mine_block("Hello Planet")
-bc.mine_block("Hello Planet 2")
-bc.mine_block("Hello Planet 3")
-print(bc.chain)
-print(bc._is_chain_valid())
-bc.chain[1]["data"] = "Hello MArs"
-print(bc._is_chain_valid())
-print(bc.chain)
